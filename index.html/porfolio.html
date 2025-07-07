@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >JOHN PORTFOLIO</title>
+    <link rel="icon" type="images/jpeg" href="./images/johnlogo.png" class="tab-logo" >
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="./device_css.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/PRAKASH DP.jpeg" alt="JOHN PORTFOLIO" class="logo" />
+        
+        <nav>
+            <a href="#home"> HOME</a>
+            <a href="#about"> ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#services">SERVICES</a> 
+            <a href="#contact">CONTACT</a>
+        </nav>
+      
+        <div class="toggle-mode">Day Mode</div>
+        <script>
+            const toggle = document.querySelector(".toggle-mode");
+            toggle.addEventListener("click",() => {
+            document.body.classList.toggle("dark-mode");
+            toggle.textContent = document.body.classList.contains("dark-mode")? "Night Mode" : "Day Mode";
+        });
+        </script>
+    </header>
+
+
+    <section id="home">
+        <div class="on-img">
+            <img src="./images/ChatGPT Image Jul 6, 2025, 12_09_10 AM.png" alt="My Image" class="profile-img-main" /> 
+            <div class="overlay-text">
+                <h1> Hi, I'm <span style="color: blue;"> SAKE PRAKASH RAJA</span></h1>
+                <span class="typed-text"></span>
+            </div>
+        </div>
+        
+         
+        <!--Socoal Icons-->  
+        <div class="social-icons">
+            <a href="https://www.facebook.com/johnprakash2602/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/JohnPra55670561" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://x.com/JohnPra55670561" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/johnprakash-tech" target="_blank" class="github"><i class="fab fa-github"></i></a>
+        </div>
+        <!--Downlod Resume Button-->  
+        <div class="resume-btn-container">
+            <a href="./images/PRAKASH_FRONTEND_RESUME.pdf" download="John_parakash_resume.pdf" class="resume-btn"><i class="fas fa-download"></i>DOWNLOAD RESUME</a>
+
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="./images/PRAKASH DP.jpeg" alt="profile-img" class="profile-img" />
+
+            <div class="about-content">
+                <p>
+                    Hello ! I'm Sake Prakash Raja a passionate full stack web developer with love for creating clean and user-friendly websites.
+                    I specialize in a full stack technologies and love turning ideas into reality through code.                     
+                </p>
+
+                <button class="read-more-btn">Read More</button>
+            </div> 
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section id="skills" >
+        <h2>My Skills</h2>
+        <!--HTML SKILL-->
+        <div class="skill">
+            <label>HTML</label>
+            <div class="progress-bar">
+                <div class="progress html">90%</div>
+            </div>
+        </div>
+        <!--CSS SKILL-->
+        <div class="skill">
+            <label>CSS</label>
+            <div class="progress-bar">
+                <div class="progress css">85%</div>
+            </div>
+        </div>
+        <!--JavaScript skill-->
+        <div class="skill">
+            <label>--JavaScript</label>
+            <div class="progress-bar">
+                <div class="progress js">65%</div>
+            </div>
+        </div>
+    </section>
+    <!--Certification Sections-->
+    <section id="certifications">
+        <h2>Relevant certifications</h2>
+
+        <div class="certification-cards">
+            <div class="cert-card">
+                <h3>Web Development Certifcate</h3>
+                <p>Issued by Internshala | JAN 2025</p>
+                <a href="./images/Full Stack Development_ Let's begin Training - Certificate of Completion.pdf" target="_blank" class="cert-btn">View Certificate</a>
+            </div>
+            <div class="cert-card">
+                <h3>AWS -Certification</h3>
+                <p>Issued by Udemy</p>
+                <a class="cert-btn">View Certificate</a>
+            </div>
+            <div class="cert-card">
+                <h3>Pyhton</h3>
+                <p>Issued by Udemy</p>
+                <a class="cert-btn">View Certificate</a>
+            </div>
+            <div class="cert-card">
+                <h3>SQL</h3>
+                <p> Issued by Infosys SpringBoard</p>
+                <a class="cert-btn">View Certificate</a>
+            </div>
+            <div class="cert-card">
+                <h3>Full Srack Web Developer</h3>
+                <p>Issued by Infosys SpringBoard</p>
+                <a class="cert-btn">View Certificate</a>
+            </div>
+        </div>
+    </section>
+    <!--Project Section-->
+    <section id="projects">
+        <h2> MY PROJECTS</h2>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive portfolio website built with HTML, CSS and --JavaScript.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Blog Template</h3>
+                <p>Clean and modern blog UI made using responsive grid and Flexbox.</p>
+                <a href="#" target="_blank" >View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A simple weather app using HTML, CSS, and JavaScript with real-time API integration.</p>
+                <a href="https://your-weather-app-link.com" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Responsive Landing Page</h3>
+                <p>A clean and responsive product landing page built with modern CSS Flexbox and media queries.</p>
+                <a href="https://your-landing-page.com" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>To-Do List Web App</h3>
+                <p>A dynamic to-do list app with add, delete, and task completion features using JavaScript DOM manipulation.</p>
+                <a href="https://your-todo-app-link.com" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Netflix Clone UI</h3>
+                <p>A static frontend clone of Netflix using HTML and styled with CSS Grid and Flexbox.</p>
+                <a href="https://your-netflix-clone.com" target="_blank">View Project</a>
+            </div>
+
+    
+        </div>
+    </section>
+    <!--CONTACT SECTION-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form" action="mailto:johnprakash735@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+            <button type="submit">Send message</button> 
+        </form>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+        <p>&copy; 2025 John Prakash.All rights reserved</p>
+
+        <div class="footer-button">
+            <a href="tel:+91 93814 25489" class="footer-btn"> Call Me</a>
+            <a href="mailto:johnprakash735@gmail.com" class="footer-btn">Email</a>
+        </div>
+    </footer>
+</body>
+</html>

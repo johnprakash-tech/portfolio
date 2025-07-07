@@ -1,0 +1,87 @@
+/* 🌐 iPad Mini (portrait - max-width: 768px) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .overlay-text {
+    font-size: 0.9rem;
+    top: 10px;
+    right: 15px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .certification-cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+}
+
+/* 📱 Galaxy S8+ (portrait - max-width: 400px) */
+@media (max-width: 400px) {
+  .overlay-text {
+    font-size: 0.8rem;
+    top: 5px;
+    right: 10px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  .typed-text {
+    font-size: 1rem;
+  }
+
+  .resume-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .cert-card {
+    min-width: 240px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+}
